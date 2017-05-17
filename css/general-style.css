@@ -1,0 +1,73 @@
+@import url("../css/main.css");
+@font-face {
+  font-family: "proxima-nova-soft";
+  font-style: normal;
+  src: url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+}
+
+* {
+  font-family: "proxima-nova-soft", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+  font-weight: 600;
+  line-height: 24px;
+  color: #494949;
+  letter-spacing: 0.5px;
+}
+
+.icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  vertical-align: middle;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.pd-top-70 {
+  padding-top: 70px;
+}
+
+.txt-sz-36 {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.txt-sz-14 {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.txt-sz-48 {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.txt-sz-18 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.txt-sz-13 {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.txt-color-primary {
+  color: #3498db;
+}
+
+.txt-color-default {
+  color: #494949;
+}
+
+.txt-color-w {
+  color: #fff;
+}
+
+.txt-color-succes {
+  color: #6ea43f;
+}

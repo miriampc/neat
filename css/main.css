@@ -1,0 +1,47 @@
+#portada .content {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*height: 90vh;*/
+}
+#portada .logo {
+  width: 120px;
+  margin: 0 auto 10px;
+}
+
+#portada .lateral {
+  width: 100%;
+}
+.lateral .icon--hero {
+  /*position: absolute;
+  left: 45%;
+  bottom: 16px;*/
+  width: 100%;
+  /*height: 100vh;*/
+}
+.lateral .icon--hero-park {
+  position: absolute;
+  left: -49%;
+  bottom: 16px;
+  width: 100%;
+  height: 320px;
+}
+
+.lateral .icon--hero-bench {
+  position: absolute;
+  /*left: 80%;*/
+  right: -28%;
+  bottom: 16px;
+  /*width: 40%;*/
+  width: 148px;
+  height: 66px;
+}
+
+/*Section how-it-works*/
+
+#how-it-works .row-img .icon--step-bond-guarantee {
+  width: 175px;
+  height: 175px;
+}
