@@ -15,18 +15,10 @@ body {
   color: #494949;
   letter-spacing: 0.5px;
 }
-
-.icon {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  background-size: contain;
-  vertical-align: middle;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
+a {
+  text-decoration: none;
 }
+
 .pd-top-70 {
   padding-top: 70px;
 }

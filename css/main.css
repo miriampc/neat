@@ -47,3 +47,20 @@
   width: 148px;
   height: 49px;
 }
+
+.portada .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.portada .logo {
+  width: 120px;
+  margin: 0 auto 10px;
+}
+
+.btn-get {
+  background: #3498DB;
+  padding: 14px 35px;
+  border-radius: 25px;
+}
