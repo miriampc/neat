@@ -1,47 +1,49 @@
-#portada .content {
-  display: flex;
-  /*flex-wrap: wrap;*/
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /*height: 90vh;*/
+/*#portada {
+  width: 100%;
+  height: 100vh;
+}*/
+.portada {
+  position: absolute;
+  width: 100%;
+  height: 480px;
 }
-#portada .logo {
-  width: 120px;
-  margin: 0 auto 10px;
+.icons {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    vertical-align: middle;
+    color: transparent;
+    border: 0;
 }
 
-#portada .lateral {
-  width: 100%;
+.bg-portada {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 480px;
+    background-size: cover;
 }
-.lateral .icon--hero {
-  /*position: absolute;
-  left: 45%;
-  bottom: 16px;*/
-  width: 100%;
-  /*height: 100vh;*/
+
+.icon--hero-bg {
+  height: 434px;
+  background-position: right bottom;
 }
-.lateral .icon--hero-park {
-  position: absolute;
-  left: -49%;
+
+.icon--hero {
+  background-position: center;
+}
+
+.portada .icon--hero-park {
+  left: -35%;
   bottom: 16px;
   width: 100%;
-  height: 320px;
+  height: 216px;
 }
 
-.lateral .icon--hero-bench {
-  position: absolute;
-  /*left: 80%;*/
+.icon--hero-bench {
   right: -28%;
   bottom: 16px;
-  /*width: 40%;*/
   width: 148px;
-  height: 66px;
-}
-
-/*Section how-it-works*/
-
-#how-it-works .row-img .icon--step-bond-guarantee {
-  width: 175px;
-  height: 175px;
+  height: 49px;
 }
