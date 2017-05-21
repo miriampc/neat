@@ -89,7 +89,37 @@
   height: 175px;
 }
 
-.text h2 {
-  font-size: 2.6em;
-  color: #3498DB;
+/*our promise*/
+.panel-group  {
+  margin-top: 20px;
+}
+
+.panel-default > .panel-heading {
+  background: none;
+  position: relative;
+  padding: 20px 20px 20px 14px;
+}
+.panel-group .panel+.panel {
+    margin-top: 0px;
+    border-top: none;
+    border-radius: 0;
+}
+.panel-heading i[class|="icons icon--feature"] {
+  position: absolute;
+  top: 5px;
+}
+
+.panel-heading .accordion-toggle:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e113";
+    float: right;
+    color: #6ea43f;
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    content: "\e114";
+}
+.panel-title a {
+  text-decoration:none;
+  color: #6ea43f;
+  margin-left: 56px;
 }
