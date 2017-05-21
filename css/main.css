@@ -125,6 +125,8 @@
 .our-community{
   background: #75B9E7;
   color: #fff !important;
+  position: relative;
+  padding-bottom: 250px;
 }
 
 .avatar-photograpy {
@@ -143,20 +145,39 @@
   background-image: url("../images/testimonials.jpg");
   background-position: center;
 }
-.text-stars {
-  position: relative;
+.avatar-section {
+  margin: 30px 0;
 }
+.our-community:after {
+  content: '”';
+  position: absolute;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000;
+  opacity: 0.025;
+  font-size: 1500px;
+  font-size: 107rem;
+  line-height: 1500px;
+  line-height: 107rem;
+  bottom: -620px;
+  right: -90px;
+}
+
 .text-stars i {
   width: 120px;
   height: 30px;
-  display: block;
-  position: absolute;
-  bottom: -70px;
-  margin: 10px auto 0;
 }
 
 /*Cleaning Checklist*/
+.gallery {
+  position: relative;
+  top: -280px; 
+}
+.gallery img {
+  position: absolute;
+  to
+}
 .cleaning-checklist {
+  padding-top: 150px;
   background: #3498db;
   color: #fff !important;
 }
