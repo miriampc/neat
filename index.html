@@ -444,8 +444,35 @@
           <p class="text-muted txt-sz-18">Let us know the details of your home and we'll provide you with an instant quote.</p>
         </div>
       </div>
-      <form action="" class="container form">
-        <div class="row"></div>
+      <form action="" class="container thumbnail">
+        <div class="row">
+            <div class="col-sm-4 col-md-3 col-lg-4">
+              <h5 class="txt-color-title txt-sz-18">Property Type</h5>
+              <small>All properties must be <strong>unfurnished</strong>.</small>
+            </div>
+            <div class="col-sm-8 col-md-9 col-lg-8">
+              <div class="row row--gutter-sm">
+                <div class="col-sm-4"><div class="radio radio-icon">
+                  <a class="icon icon--property icon--property-studio" href="#"></a>
+                  <input type="radio" id="quote-property-studio" name="quote-property" value="Studio">
+                  <label for="quote-property-studio">Studio</label>
+                  <button type="button" class="icon icon--xs icon--tooltip" data-toggle="tooltip" title="" data-original-title="Studios have a combined bedroom and kitchen with a separate bathroom."></button></div></div><div class="col-sm-4 quote-col-apartment"><div class="radio radio-icon is-active">
+                  <a class="icon icon--property icon--property-apartment" href="#"></a>
+                  <input type="radio" id="quote-property-apartment" name="quote-property" value="Apartment" checked="">
+                  <label for="quote-property-apartment">Apartment</label>
+                  <button type="button" class="icon icon--xs icon--tooltip" data-toggle="tooltip" title="" data-original-title="Apartments exclude townhouses, bungalows, and terraces."></button>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="radio radio-icon" style="margin-bottom: 0;">
+                  <a class="icon icon--property icon--property-house" href="#"></a><input type="radio" id="quote-property-house" name="quote-property" value="House">
+                  <label for="quote-property-house">House</label>
+                  <button type="button" class="icon icon--xs icon--tooltip" data-toggle="tooltip" title="" data-original-title="Houses include townhouses, bungalows, and terraces."></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </form>
     </section>
   </main>

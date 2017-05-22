@@ -170,11 +170,14 @@
 /*Cleaning Checklist*/
 .gallery {
   position: relative;
-  top: -280px; 
+  top: -280px;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
 }
 .gallery img {
   position: absolute;
-  to
+
 }
 .cleaning-checklist {
   padding-top: 150px;
