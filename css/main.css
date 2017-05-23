@@ -170,17 +170,18 @@
 /*Cleaning Checklist*/
 .gallery {
   position: relative;
-  top: -280px;
+  top: -140px;
   /*display: flex;
   justify-content: center;
   align-items: center;*/
+  width: 100%;
 }
-.gallery img {
-  position: absolute;
-
+.gallery-img {
+  /*position: absolute;*/
+  float: left;
 }
 .cleaning-checklist {
-  padding-top: 150px;
+  /*padding-top: 150px;*/
   background: #3498db;
   color: #fff !important;
 }
