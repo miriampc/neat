@@ -67,6 +67,7 @@
 /*2da Section*/
 .how-it-works {
   background: #f9f9f9;
+  margin-top: -50px;
 }
 .circle {
   width: 225px;
@@ -126,7 +127,7 @@
   background: #75B9E7;
   color: #fff !important;
   position: relative;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
 }
 
 .avatar-photograpy {
@@ -168,22 +169,43 @@
 }
 
 /*Cleaning Checklist*/
-.gallery {
-  position: relative;
-  top: -140px;
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
-  width: 100%;
-}
-.gallery-img {
-  /*position: absolute;*/
-  float: left;
-}
 .cleaning-checklist {
-  /*padding-top: 150px;*/
   background: #3498db;
   color: #fff !important;
+}
+.gallery {
+  position: relative;
+  top: -100px;
+  width: 100%;
+}
+.gallery img {
+  width:178px;
+  height: 178px;
+}
+
+.image-column .zindex2 {
+  margin: 0 15px;
+}
+.image-column .rotate-ah {
+  transform: rotate(-3deg);
+}
+
+.image-column .rotate-h {
+  transform: rotate(5deg);
+}
+.image-column .rotate-ah:hover {
+  transform: rotate(5deg);
+}
+.image-column .rotate-h:hover {
+  transform: rotate(-5deg);
+}
+.image-column .zindex1 {
+  top: -270px;
+  z-index: 1;
+  margin: 0 40px;
+}
+.image-column .zindex2 {
+  z-index: 2;
 }
 
 .checklist {
@@ -227,4 +249,18 @@
 /*Get Your Quote*/
 .get-your-quote {
   background: #eee;
+}
+
+@media screen and (width-min:1000px) {
+  .gallery img {
+    width:231px;
+    height: 231px;
+  }
+}
+
+@media screen and (width-min:1200px) {
+  .gallery img {
+    width:278px;
+    height: 278px;
+  }
 }
