@@ -67,7 +67,8 @@
 /*2da Section*/
 .how-it-works {
   background: #f9f9f9;
-  margin-top: -50px;
+  margin-top: -70px;
+
 }
 .circle {
   width: 225px;
@@ -86,6 +87,9 @@
   height: 175px;
 }
 
+.how-it-works .text {
+  margin-top: 5%;
+}
 /*our promise*/
 .panel-group  {
   margin-top: 20px;
@@ -184,14 +188,13 @@
 }
 
 .image-column .zindex2 {
-  /*position: relative;*/
-  top: -100px;
-  /*margin: 0 -15px;*/
+  position: relative;
+  top: -130px;
   z-index: 2;
 }
 .image-column .zindex1 {
-  /*position: absolute;*/
-  top: -100px;
+  position: absolute;
+  top: -130px;
   z-index: 1;
   margin: 0 40px;
 }
@@ -298,6 +301,28 @@
   .btn-get {
     border-radius: 30px;
     font-size: 1.8em;
+  }
+
+  /*our-community*/
+  .our-community .txt-title {
+    font-size: 1.2em;
+  }
+  .text-stars {
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  .avatar-section {
+    margin-top: 50px;
+  }
+  /*checklist*/
+  .height-lg .list-group {
+    height: 600px;
+  }
+
+  .section-checklist .txt-title {
+    margin-bottom: 30px;
   }
 }
 
