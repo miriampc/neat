@@ -304,10 +304,17 @@ footer{
   height: 60px;
 }
 
+.footer-container .row-links {
+  margin-top: 50px;
+}
 .footer-container .row-links a{
   color: #fff;
   text-decoration: none;
   font-weight: normal;
+}
+
+.footer-container .row {
+  padding-top: 20px;
 }
 
 /*Medias Query*/
