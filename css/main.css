@@ -175,13 +175,8 @@
 /*Cleaning Checklist*/
 .cleaning-checklist {
   background: #3498db;
-  color: #fff !important;
 }
-.gallery {
-  /*position: relative;
-  top: -100px;*/
-  width: 100%;
-}
+
 .gallery img {
   width:178px;
   height: 178px;
@@ -289,6 +284,7 @@
   font-size: 1.4em;
   border-radius: 25px;
 }
+
 /*Footer*/
 
 footer{
@@ -296,9 +292,7 @@ footer{
   color: #fff;
   padding-bottom: 70px;
 }
-/*.footer-container {
-  padding: 70px auto;
-}*/
+
 .row-logo img {
   width: 120px;
   height: 60px;
