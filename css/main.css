@@ -289,6 +289,26 @@
   font-size: 1.4em;
   border-radius: 25px;
 }
+/*Footer*/
+
+footer{
+  background: #3498db;
+  color: #fff;
+  padding-bottom: 70px;
+}
+/*.footer-container {
+  padding: 70px auto;
+}*/
+.row-logo img {
+  width: 120px;
+  height: 60px;
+}
+
+.footer-container .row-links a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+}
 
 /*Medias Query*/
 
@@ -354,7 +374,7 @@
   }
   /*checklist*/
   .height-lg .list-group {
-    height: 80%;
+    height: 600px;
   }
 
   .section-checklist .txt-title {
@@ -363,7 +383,7 @@
   /*get-your-quote*/
 
   .row-quote-items .extras {
-    height: 600px;
+    height: 70vh;
   }
 }
 
