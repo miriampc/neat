@@ -56,7 +56,7 @@
 }
 
 .row-button {
-  margin-top: 30px;
+  padding: 30px;
 }
 
 .btn-get {
@@ -256,6 +256,42 @@
   background: #eee;
 }
 
+.row-quote-items {
+  border-bottom: 1px solid #c3c3c3;
+  width: 80%;
+}
+.row-quote-items>div{
+  margin-bottom: 30px;
+}
+.row-quote-items .quote-items{
+  height: 60px;
+  margin-top: 20px;
+}
+
+.checkbox-quote-items .quote-items {
+  border-bottom: 1px solid #c3c3c3;
+  width: 102%;
+}
+
+.quote-items .checkbox input{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.quote-items .checkbox em {
+  display: block;
+}
+
+.row-button .btn-bg-succes {
+  padding: 10px 30px;
+  font-size: 1.4em;
+  border-radius: 25px;
+}
+
+/*Medias Query*/
+
 @media screen and (min-width:500px) {
   .portada .icon--hero-park {
     left: 0;
@@ -318,11 +354,16 @@
   }
   /*checklist*/
   .height-lg .list-group {
-    height: 600px;
+    height: 80%;
   }
 
   .section-checklist .txt-title {
     margin-bottom: 30px;
+  }
+  /*get-your-quote*/
+
+  .row-quote-items .extras {
+    height: 600px;
   }
 }
 

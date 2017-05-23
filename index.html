@@ -468,42 +468,178 @@
     </section>
     <section id="get-your-quote" class="get-your-quote">
       <div class="container pd-top-70">
-        <div class="row center-block text-center">
-          <div class="col-sm-12 col-md-12 text txt-title">
-            <h2><strong>Get Your Quote</strong></h2>
-            <p class="text-muted txt-sz-18">Let us know the details of your home and we'll provide you with an instant quote.</p>
-          </div>
-        </div>
-        <!-- <form action="" class="container thumbnail"> -->
-        <div class="row">
-            <div class="col-sm-4 col-md-3 col-lg-4">
-              <h5 class="txt-color-title txt-sz-18">Property Type</h5>
-              <small>All properties must be <strong>unfurnished</strong>.</small>
+        <div class="thumbnail pd-top-70">
+          <div class="row center-block text-center">
+            <div class="col-sm-12 col-md-12 text txt-title">
+              <h2><strong>Get Your Quote</strong></h2>
+              <p class="text-muted txt-sz-18">Let us know the details of your home and we'll provide you with an instant quote.</p>
             </div>
-            <div class="col-sm-8 col-md-9 col-lg-8">
-              <div class="row row--gutter-sm">
-                <div class="col-sm-4"><div class="radio radio-icon">
-                  <a class="icon icon--property icon--property-studio" href="#"></a>
-                  <input type="radio" id="quote-property-studio" name="quote-property" value="Studio">
-                  <label for="quote-property-studio">Studio</label>
-                  <button type="button" class="icon icon--xs icon--tooltip" data-toggle="tooltip" title="" data-original-title="Studios have a combined bedroom and kitchen with a separate bathroom."></button></div></div><div class="col-sm-4 quote-col-apartment"><div class="radio radio-icon is-active">
-                  <a class="icon icon--property icon--property-apartment" href="#"></a>
-                  <input type="radio" id="quote-property-apartment" name="quote-property" value="Apartment" checked="">
-                  <label for="quote-property-apartment">Apartment</label>
-                  <button type="button" class="icon icon--xs icon--tooltip" data-toggle="tooltip" title="" data-original-title="Apartments exclude townhouses, bungalows, and terraces."></button>
-                </div>
+          </div>
+          <form action="" class="container form-inline pd-top-70">
+            <div class="row row-quote-items center-block">
+              <div class="col-sm-12 col-md-4">
+                <h5 class="txt-color-title txt-sz-18">Property Type</h5>
+                <span>All properties must be <strong>unfurnished</strong>.</span>
               </div>
-              <div class="col-sm-4">
-                <div class="radio radio-icon" style="margin-bottom: 0;">
-                  <a class="icon icon--property icon--property-house" href="#"></a><input type="radio" id="quote-property-house" name="quote-property" value="House">
-                  <label for="quote-property-house">House</label>
-                  <button type="button" class="icon icon--xs icon--tooltip" data-toggle="tooltip" title="" data-original-title="Houses include townhouses, bungalows, and terraces."></button>
+              <div class="col-sm-12 col-md-8 ">
+                <div class="quote-items col-md-4">
+                  <a href="" class="icons icon--property-studio"></a>
+                  <span class="col-sm-offset-2 col-md-offset-4">Studio</span>
+                </div>
+                <div class="quote-items col-md-4">
+                  <a href="" class="icons icon--property-apartment"></a>
+                  <span class="col-sm-offset-2 col-md-offset-4">Apartment</span>
+                </div>
+                <div class="quote-items col-md-4">
+                  <a href="" class="icons icon--property-house"></a>
+                  <span class="col-sm-offset-2 col-md-offset-4">House</span>
                 </div>
               </div>
             </div>
-          </div>
+            <div class="row row-quote-items center-block">
+              <div class="col-sm-12 col-md-4">
+                <h5 class="txt-color-title txt-sz-18">Rooms</h5>
+                <span>We base our quotes on <a href="">standard room specifications</a>.</span>
+              </div>
+              <div class="col-sm-12 col-md-8 ">
+                <div class="form-group quote-items col-md-4">
+                  <label for="num-bedroom">Bedroom</label>
+                  <div class="input-group">
+                    <div class="input-group-addon btn">-</div>
+                    <input type="number" class="form-control" id="num-bedroom" value="1">
+                    <div class="input-group-addon btn">+</div>
+                  </div>
+                </div>
+                <div class="form-group quote-items col-md-4">
+                  <label for="num-bedroom">Living Room</label>
+                  <div class="input-group">
+                    <div class="input-group-addon btn">-</div>
+                    <input type="number" class="form-control" id="num-bedroom" value="1">
+                    <div class="input-group-addon btn">+</div>
+                  </div>
+                </div>
+                <div class="form-group quote-items col-md-4">
+                  <label for="num-bedroom">Dining Room</label>
+                  <div class="input-group">
+                    <div class="input-group-addon btn">-</div>
+                    <input type="number" class="form-control" id="num-bedroom" value="1">
+                    <div class="input-group-addon btn">+</div>
+                  </div>
+                </div>
+                <div class="form-group quote-items col-md-4">
+                  <label for="num-bedroom">Kitchen</label>
+                  <div class="input-group">
+                    <div class="input-group-addon btn">-</div>
+                    <input type="number" class="form-control" id="num-bedroom" value="1">
+                    <div class="input-group-addon btn">+</div>
+                  </div>
+                </div>
+                <div class="form-group quote-items col-md-4">
+                  <label for="num-bedroom">Bathroom</label>
+                  <div class="input-group">
+                    <div class="input-group-addon btn">-</div>
+                    <input type="number" class="form-control" id="num-bedroom" value="1">
+                    <div class="input-group-addon btn">+</div>
+                  </div>
+                </div>
+                <div class="form-group quote-items col-md-4">
+                  <label for="num-bedroom">Study</label>
+                  <div class="input-group">
+                    <div class="input-group-addon btn">-</div>
+                    <input type="number" class="form-control" id="num-bedroom" value="1">
+                    <div class="input-group-addon btn">+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-quote-items center-block">
+              <div class="col-sm-12 col-md-4">
+                <h5 class="txt-color-title txt-sz-18">Amenities</h5>
+              </div>
+              <div class="col-sm-12 col-md-8 ">
+                <div class="form-group quote-items col-md-4">
+                  <label for="num-bedroom">Laundry</label>
+                  <div class="input-group">
+                    <div class="input-group-addon btn">-</div>
+                    <input type="number" class="form-control" id="num-bedroom" value="1">
+                    <div class="input-group-addon btn">+</div>
+                  </div>
+                </div>
+                <div class="form-group quote-items col-md-4">
+                  <label for="num-bedroom">Balcony</label>
+                  <div class="input-group">
+                    <div class="input-group-addon btn">-</div>
+                    <input type="number" class="form-control" id="num-bedroom" value="1">
+                    <div class="input-group-addon btn">+</div>
+                  </div>
+                </div>
+                <div class="form-group quote-items col-md-4">
+                  <label for="num-bedroom">Garage</label>
+                  <div class="input-group">
+                    <div class="input-group-addon btn">-</div>
+                    <input type="number" class="form-control" id="num-bedroom" value="1">
+                    <div class="input-group-addon btn">+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-quote-items center-block">
+              <div class="col-sm-12 col-md-4 extras">
+                <h5 class="txt-color-title txt-sz-18">Extras</h5>
+                <span>Although these requests are optional, you should still check with your agent about the requirements of your home.</span>
+              </div>
+              <div class="checkbox-quote-items col-sm-12 col-md-8 ">
+                <div class="form-group quote-items">
+                  <div class="checkbox">
+                    <input type="checkbox">
+                    <label>Carpet steam clean</label>
+                  </div>
+                </div>
+              </div>
+              <div class="checkbox-quote-items col-sm-12 col-md-8 ">
+                <div class="form-group quote-items">
+                  <div class="checkbox">
+                    <input type="checkbox">
+                    <label>Wall wash
+                      <em class="txt-color-title">(full wash or spot clean)</em>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="checkbox-quote-items col-sm-12 col-md-8 ">
+                <div class="form-group quote-items">
+                  <div class="checkbox">
+                    <input type="checkbox">
+                    <label> Window wash
+                      <em class="txt-color-title">(external or floor-to-ceiling)</em>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="checkbox-quote-items col-sm-12 col-md-8 ">
+                <div class="form-group quote-items">
+                  <div class="checkbox">
+                    <input type="checkbox">
+                    <label>Blind/shutters deep clean</label>
+                  </div>
+                </div>
+              </div>
+              <div class="checkbox-quote-items col-sm-12 col-md-8 ">
+                <div class="form-group quote-items">
+                  <div class="checkbox">
+                    <input type="checkbox">
+                    <label>Appliance deep clean</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-button center-block text-center">
+              <div class="col-sm-12 col-md-12">
+                <a href="#" class="txt-color-w btn-bg-succes">Get quote</a>
+              </div>
+            </div>
+          </form>
         </div>
-      </form>
       </div>
     </section>
   </main>

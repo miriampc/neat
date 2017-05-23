@@ -23,32 +23,14 @@ a {
 .pd-top-70 {
   padding-top: 70px;
 }
-
-.txt-sz-36 {
-  font-size: 36px;
-  line-height: 42px;
-}
-
-.txt-sz-14 {
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.txt-sz-48 {
-  font-size: 48px;
-  line-height: 56px;
-}
-
 .txt-sz-18 {
   font-size: 18px;
   line-height: 28px;
 }
 
-.txt-sz-13 {
-  font-size: 13px;
-  line-height: 20px;
+.btn-bg-succes {
+  background: #6ea43f;
 }
-
 .text p {
   color: #494949;
 }
@@ -57,9 +39,6 @@ a {
   color: #fff;
 }
 
-.txt-color-succes {
-  color: #6ea43f;
-}
 .txt-color-title {
   color: #3498db;
 }
